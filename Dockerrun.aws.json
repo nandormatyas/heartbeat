@@ -1,0 +1,11 @@
+{     
+  "AWSEBDockerrunVersion": "1",          
+  "Image":{       
+    "Name": "nandormatyas/heartbeat"     
+  },     
+    "Ports": [       {         
+      "ContainerPort": "7373",
+      "hostPort": "80"
+    }     
+  ]   
+}
